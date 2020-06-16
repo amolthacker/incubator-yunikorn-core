@@ -32,7 +32,7 @@ The easiest way to get started is to use our Helm Charts to deploy YuniKorn on a
 ```shell script
 helm repo add yunikorn  https://apache.github.io/incubator-yunikorn-release
 helm repo update
-helm install yunikorn/yunikorn
+helm install yunikorn yunikorn/yunikorn
 ```
 
 it will firstly create a `configmap` where stores YuniKorn configuration, and then deploy YuniKorn scheduler
